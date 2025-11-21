@@ -1,0 +1,1205 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Vension \u2013 Retirement Planning Consulting Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/metform-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "JKit Tabs - Pricing",
+            "screenshot": "screenshots\/jkit-tabs-pricing.jpg",
+            "source": "templates\/jkit-tabs-pricing.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/jkit-tabs-pricing\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404 Page",
+            "screenshot": "screenshots\/404-page.jpg",
+            "source": "templates\/404-page.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/vension\/template-kit\/404-page\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.12.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.1",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.2.3",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.11",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        }
+    ],
+    "images": [
+        {
+            "filename": "bg-dark-blue.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/bg-dark-blue-800x450.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 10548,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/bg-dark-blue.png"
+        },
+        {
+            "filename": "senior-asian-old-man-e1684478454356.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/senior-asian-old-man-800x548.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 75305,
+            "dimensions": [
+                650,
+                650
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZPYCGMG"
+        },
+        {
+            "filename": "portrait-of-cheerful-old-woman-sitting-in-kitchen-e1684480151616.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/portrait-of-cheerful-old-woman-sitting-in-kitchen-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 57626,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-E6B5UK3"
+        },
+        {
+            "filename": "portrait-senior-man-smiling-happiness-of-old-man-in-retirement--e1684747415548.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/portrait-senior-man-smiling-happiness-of-old-man-in-retirement--800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 66103,
+            "dimensions": [
+                649,
+                649
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7KGL6YB"
+        },
+        {
+            "filename": "happy-couple-and-elderly-2.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/happy-couple-and-elderly-2-800x848.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 286994,
+            "dimensions": [
+                849,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AR9RKXX"
+        },
+        {
+            "filename": "vension-bg-mark.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/vension-bg-mark-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 39976,
+            "dimensions": [
+                1920,
+                1920
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/vension-bg-mark.png"
+        },
+        {
+            "filename": "line-bg-vension-2.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/line-bg-vension-2-800x1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 147,
+            "dimensions": [
+                1920,
+                1
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/line-bg-vension-2.png"
+        },
+        {
+            "filename": "together-pensioner-happiness-couple-retirement-concept-e1684304402787.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/together-pensioner-happiness-couple-retirement-concept-e1684304402787-800x250.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 144855,
+            "dimensions": [
+                1920,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P4Y4UW6"
+        },
+        {
+            "filename": "Logo-vension.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension-800x681.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 11293,
+            "dimensions": [
+                987,
+                840
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension.png"
+        },
+        {
+            "filename": "Sitemark-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Sitemark-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 18765,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recr9fsEK43RqqITU"
+        },
+        {
+            "filename": "Sitemark-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Sitemark-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 20050,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recr9fsEK43RqqITU"
+        },
+        {
+            "filename": "Hitech-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Hitech-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 11003,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec64S3yLVtdaCjPw"
+        },
+        {
+            "filename": "Hitech-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Hitech-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 11170,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec64S3yLVtdaCjPw"
+        },
+        {
+            "filename": "Umbrella-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Umbrella-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 14499,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recqMTDfGpRCTzwhU"
+        },
+        {
+            "filename": "Umbrella-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Umbrella-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 14557,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recqMTDfGpRCTzwhU"
+        },
+        {
+            "filename": "Nextmove-logo-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Nextmove-logo-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 16881,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recXWUjUgwS26HIuj"
+        },
+        {
+            "filename": "Nextmove-logo-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Nextmove-logo-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 17041,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/recXWUjUgwS26HIuj"
+        },
+        {
+            "filename": "Blossom-logo-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Blossom-logo-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 23597,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec9ugGkVIPVYCV8w"
+        },
+        {
+            "filename": "Blossom-logo-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Blossom-logo-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 24261,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec9ugGkVIPVYCV8w"
+        },
+        {
+            "filename": "Recharge-bw.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Recharge-bw-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 17476,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec0X8B2Og42AJ35l"
+        },
+        {
+            "filename": "Recharge-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Recharge-color-800x236.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 17881,
+            "dimensions": [
+                1571,
+                463
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.logotouse.com\/logo\/rec0X8B2Og42AJ35l"
+        },
+        {
+            "filename": "happy-couple-UUC4SXP.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/happy-couple-UUC4SXP-800x848.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 173766,
+            "dimensions": [
+                1191,
+                1262
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UUC4SXP"
+        },
+        {
+            "filename": "Family-insurance.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Family-insurance-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 51660,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "mortgage-insurance.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/mortgage-insurance-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 35990,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "Pension-planning.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Pension-planning-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 26888,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "Permanent-life-insurance.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Permanent-life-insurance-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 71405,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "Retirement-planning.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Retirement-planning-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 27904,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "Funeral-planning.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Funeral-planning-800x800.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 23616,
+            "dimensions": [
+                1293,
+                1293
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/life-insurance-icons-blue-series-QJ6KD3"
+        },
+        {
+            "filename": "old-man-posing-with-a-ww2-plane-e1684480841901.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/old-man-posing-with-a-ww2-plane-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 62290,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7775K2Z"
+        },
+        {
+            "filename": "happy-older-couple-KRVZ3US.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/happy-older-couple-KRVZ3US-800x930.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 354249,
+            "dimensions": [
+                906,
+                1053
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KRVZ3US"
+        },
+        {
+            "filename": "happy-aged-couple-consulting-with-insurance-agent-at-home-e1685005946647.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/happy-aged-couple-consulting-with-insurance-agent-at-home-e1685005946647-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 206328,
+            "dimensions": [
+                1920,
+                1281
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RKPKLHL"
+        },
+        {
+            "filename": "handshake-senior-couple-investment-business-finance-hand-agent-meeting-agreement-planning-home-e1685008892995.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/handshake-senior-couple-investment-business-finance-hand-agent-meeting-agreement-planning-home-e1685008892995-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 254137,
+            "dimensions": [
+                1920,
+                1281
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3YQUMDD"
+        },
+        {
+            "filename": "portrait-of-young-businessman-VC29QXC.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/portrait-of-young-businessman-VC29QXC-800x1103.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 273258,
+            "dimensions": [
+                812,
+                1120
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-VC29QXC"
+        },
+        {
+            "filename": "charming-asian-woman-8VA4BRT.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/charming-asian-woman-8VA4BRT-800x1103.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 261752,
+            "dimensions": [
+                812,
+                1120
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8VA4BRT"
+        },
+        {
+            "filename": "cheerful-young-african-S6YXGSH.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/cheerful-young-african-S6YXGSH-800x1103.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 300855,
+            "dimensions": [
+                812,
+                1120
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-S6YXGSH"
+        },
+        {
+            "filename": "Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 9164,
+            "dimensions": [
+                479,
+                160
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/developer.apple.com\/app-store\/marketing\/guidelines\/"
+        },
+        {
+            "filename": "google-play-badge.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/google-play-badge.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 4904,
+            "dimensions": [
+                646,
+                250
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/play.google.com\/intl\/en_us\/badges\/"
+        },
+        {
+            "filename": "iPhone-Mockup-vension-apps-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/iPhone-Mockup-vension-apps-1-800x854.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 289983,
+            "dimensions": [
+                1218,
+                1300
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/insurance-mobile-app-ui-kit-ZEC2DVE"
+        },
+        {
+            "filename": "happy-smiling-old-couple-in-the-park--e1685512448198.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/happy-smiling-old-couple-in-the-park--e1685512448198-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 298731,
+            "dimensions": [
+                1920,
+                1282
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4UQVMKD"
+        },
+        {
+            "filename": "older-couple-at-home-QAG3Y2A.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/older-couple-at-home-QAG3Y2A-800x706.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 240321,
+            "dimensions": [
+                1060,
+                935
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QAG3Y2A"
+        },
+        {
+            "filename": "arent-you-glad-we-saved-for-a-good-retirement-e1685512470489.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/arent-you-glad-we-saved-for-a-good-retirement-e1685512470489-800x572.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 273383,
+            "dimensions": [
+                1920,
+                1372
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B2UCGCC"
+        },
+        {
+            "filename": "outdoor-portrait-of-african-american-man-with-crossed-arms-looking-at-camera-e1685352725149.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/outdoor-portrait-of-african-american-man-with-crossed-arms-looking-at-camera-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 60010,
+            "dimensions": [
+                650,
+                650
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JJWS6EW"
+        },
+        {
+            "filename": "group-of-senior-retirement-friends-happiness-concept-e1685511425807.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/group-of-senior-retirement-friends-happiness-concept-e1685511425807-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 340891,
+            "dimensions": [
+                1820,
+                1215
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Z4DDBNP"
+        },
+        {
+            "filename": "Logo-vension-white-ok.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension-white-ok-800x157.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 28773,
+            "dimensions": [
+                1830,
+                360
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension-white-ok.png"
+        },
+        {
+            "filename": "Logo-vension-color.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension-color-800x157.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 30157,
+            "dimensions": [
+                1829,
+                359
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/templatekit.jegtheme.com\/vension\/wp-content\/uploads\/sites\/380\/2023\/05\/Logo-vension-color.png"
+        }
+    ]
+}

@@ -1,0 +1,75 @@
+version: "3.9"
+
+networks:
+  traefik_net:
+    driver: bridge
+
+services:
+  traefik:
+    image: traefik:v2.11
+    container_name: traefik
+    restart: unless-stopped
+    networks:
+      - traefik_net
+    ports:
+      - "80:80"
+      - "443:443"
+    command:
+      - "--api.dashboard=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entrypoints.web.address=:80"
+      - "--entrypoints.websecure.address=:443"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
+      - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
+      - "--certificatesresolvers.letsencrypt.acme.email=admin@jezierscy.com"
+      - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
+      - "--certificatesresolvers.letsencrypt.acme.caServer=https://acme-staging-v02.api.letsencrypt.org/directory"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./traefik/acme.json:/letsencrypt/acme.json"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.dashboard.rule=Host(`traefik.jezierscy.com`)"
+      - "traefik.http.routers.dashboard.entrypoints=websecure"
+      - "traefik.http.routers.dashboard.tls.certresolver=letsencrypt"
+
+  db:
+    image: mysql:8.0
+    container_name: wordpress-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: baz@wp7!
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wpuserJacek
+      MYSQL_PASSWORD: wp7Pass!
+    volumes:
+      - "./data/db:/var/lib/mysql"
+    networks:
+      - traefik_net
+
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress
+    restart: unless-stopped
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wpuserJacek
+      WORDPRESS_DB_PASSWORD: wp7Pass!
+    volumes:
+      - "./data/wp:/var/www/html"
+    networks:
+      - traefik_net
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.wp.rule=Host(`jezierscy.com`,`www.jezierscy.com`)"
+      - "traefik.http.routers.wp.entrypoints=websecure"
+      - "traefik.http.routers.wp.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.wp-http.rule=Host(`jezierscy.com`,`www.jezierscy.com`)"
+      - "traefik.http.routers.wp-http.entrypoints=web"
+      - "traefik.http.routers.wp-http.middlewares=redirecthttps"
+      - "traefik.http.middlewares.redirecthttps.redirectscheme.scheme=https"
+      - "traefik.http.services.wp.loadbalancer.server.port=80"
